@@ -20,7 +20,7 @@ limitations under the License.
 
 # itermmeanabs2
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which iteratively computes a moving [arithmetic mean][arithmetic-mean] of squared absolute values.
 
@@ -160,9 +160,9 @@ while ( true ) {
 
 ## See Also
 
--   [`@stdlib/stats/iter/meanabs2`][@stdlib/stats/iter/meanabs2]: compute the arithmetic mean of squared absolute values for all iterated values.
--   [`@stdlib/stats/iter/mmeanabs`][@stdlib/stats/iter/mmeanabs]: create an iterator which iteratively computes a moving arithmetic mean of absolute values.
--   [`@stdlib/stats/iter/msumabs2`][@stdlib/stats/iter/msumabs2]: create an iterator which iteratively computes a moving sum of squared absolute values.
+-   <span class="package-name">[`@stdlib/stats/iter/meanabs2`][@stdlib/stats/iter/meanabs2]</span><span class="delimiter">: </span><span class="description">compute the arithmetic mean of squared absolute values for all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/mmeanabs`][@stdlib/stats/iter/mmeanabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving arithmetic mean of absolute values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/msumabs2`][@stdlib/stats/iter/msumabs2]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving sum of squared absolute values.</span>
 
 </section>
 
@@ -213,8 +213,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-iter-mmeanabs2/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-iter-mmeanabs2?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-iter-mmeanabs2.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-iter-mmeanabs2/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
