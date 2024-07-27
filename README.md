@@ -65,7 +65,7 @@ m = \frac{1}{W} \sum_{i=0}^{W-1} x_i^2
 ## Usage
 
 ```javascript
-import itermmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmeanabs2@deno/mod.js';
+import itermmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmeanabs2@v0.2.2-deno/mod.js';
 ```
 
 #### itermmeanabs2( iterator, W )
@@ -123,7 +123,7 @@ m = it.next().value; // [3.0, -7.0, -5.0]
 
 ```javascript
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import itermmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmeanabs2@deno/mod.js';
+import itermmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmeanabs2@v0.2.2-deno/mod.js';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
